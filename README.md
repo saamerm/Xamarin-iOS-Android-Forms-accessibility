@@ -10,6 +10,10 @@ The PowerPoint contains how to:
 * Test Accessibility
 * Develop and Fix accessibility using the different properties, functions and delegates
 
+## Test video link
+
+https://www.youtube.com/watch?v=cbfdycjg658
+
 ### Ways to contribute
 Just fork, create changes in your branch, and then create a Pull Request.
 
