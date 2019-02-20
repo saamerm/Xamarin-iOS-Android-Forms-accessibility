@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FormsA11y" x:Class="FormsA11y.MainPageXAML">
+    <StackLayout>
+        <!-- Place new controls here -->
+<!--    <Label 
+        Text="Welcome to Xamarin.Forms!"
+        HorizontalOptions="Center" 
+        VerticalOptions="CenterAndExpand" />
+        <Image 
+        Source="https://banner2.kisspng.com/20180416/eqq/kisspng-xamarin-microsoft-visual-studio-monodevelop-androi-video-icon-5ad4ea5ba30423.9897012715239030676677.jpg" 
+        HorizontalOptions="Center" 
+        VerticalOptions="CenterAndExpand" />
+        <Button 
+        Text="Welcome to Xamarin.Forms!" 
+        HorizontalOptions="Center" 
+        VerticalOptions="CenterAndExpand" />
+        -->   
+        <Label 
+        Text="Welcome to Xamarin.Forms!"
+        HorizontalOptions="Center" 
+        VerticalOptions="CenterAndExpand" />
+        <Image 
+        Source="https://banner2.kisspng.com/20180416/eqq/kisspng-xamarin-microsoft-visual-studio-monodevelop-androi-video-icon-5ad4ea5ba30423.9897012715239030676677.jpg" 
+        HorizontalOptions="Center" 
+        VerticalOptions="CenterAndExpand" />
+        <Button 
+        Text="Welcome to Xamarin.Forms!" 
+        HorizontalOptions="Center" 
+        VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+</ContentPage>
