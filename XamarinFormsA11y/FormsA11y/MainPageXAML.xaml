@@ -3,28 +3,35 @@
     <StackLayout>
         <!-- Place new controls here -->
 <!--    <Label 
-        Text="Welcome to Xamarin.Forms!"
+        Text="This is a label!"
         HorizontalOptions="Center" 
+        AutomationProperties.Hint="Picture" 
         VerticalOptions="CenterAndExpand" />
         <Image 
         Source="https://banner2.kisspng.com/20180416/eqq/kisspng-xamarin-microsoft-visual-studio-monodevelop-androi-video-icon-5ad4ea5ba30423.9897012715239030676677.jpg" 
-        HorizontalOptions="Center" 
+        HorizontalOptions="Center"
+        AutomationProperties.Name="Light Bulb"
         VerticalOptions="CenterAndExpand" />
         <Button 
-        Text="Welcome to Xamarin.Forms!" 
+        Text="This is a button!" 
+        BorderWidth="0.5"
+        WidthRequest="300"
         HorizontalOptions="Center" 
-        VerticalOptions="CenterAndExpand" />
+        VerticalOptions="CenterAndExpand"
+        AutomationProperties.IsInAccessibleTree="false"/>
         -->   
         <Label 
-        Text="Welcome to Xamarin.Forms!"
+        Text="This is a label!"
         HorizontalOptions="Center" 
         VerticalOptions="CenterAndExpand" />
         <Image 
         Source="https://banner2.kisspng.com/20180416/eqq/kisspng-xamarin-microsoft-visual-studio-monodevelop-androi-video-icon-5ad4ea5ba30423.9897012715239030676677.jpg" 
-        HorizontalOptions="Center" 
+        HorizontalOptions="Center"
         VerticalOptions="CenterAndExpand" />
         <Button 
-        Text="Welcome to Xamarin.Forms!" 
+        Text="This is a button!" 
+        BorderWidth="0.5"
+        WidthRequest="300"
         HorizontalOptions="Center" 
         VerticalOptions="CenterAndExpand" />
     </StackLayout>

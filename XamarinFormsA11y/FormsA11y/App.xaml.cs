@@ -12,11 +12,11 @@ namespace FormsA11y
             // Was not able to get accessibility to work through XAML based on what was given here
             // https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/accessibility/automation-properties
             // as Intellisense doesnt recognise it, and we get a build error
-            //InitializeComponent();
-            MainPage = new MainPageXAML();
+            InitializeComponent();
+            //MainPage = new MainPageXAML();
 
             // Used the AutomationProperties class 
-            //MainPage = new MainPageCS();
+            MainPage = new MainPageCS();
         }
 
         protected override void OnStart()
