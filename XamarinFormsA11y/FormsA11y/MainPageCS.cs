@@ -8,21 +8,21 @@ namespace FormsA11y
     {
         public MainPageCS()
         {
-            var x = new Label
+            var label = new Label
             {
                 Text = "This is a label!",
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
-
-            // Might have to add Internet permissions to Android project Settings->Application-Permissions, in order to show the image
-            var y = new Image
+            // Might have to add Internet permissions to Android project
+            // ...Settings->Application-Permissions, in order to show the image
+            var image = new Image
             {
                 Source = "https://alexdunndev.files.wordpress.com/2017/02/xamarintips.png",
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.CenterAndExpand
             };
-            var z = new Button
+            var button = new Button
             {
                 Text = "This is a button!",
                 BorderWidth = 0.5,
@@ -32,12 +32,12 @@ namespace FormsA11y
             };
 
             // Accessibility changes
-            AutomationProperties.SetHelpText(x, "Picture");
-            AutomationProperties.SetName(y, "Light bulb");
-            AutomationProperties.SetIsInAccessibleTree(z, false);
+            AutomationProperties.SetHelpText(image, "Images");
+            AutomationProperties.SetName(image, "Light bulb");
+            AutomationProperties.SetIsInAccessibleTree(button, true);
             Content = new StackLayout
             {
-                Children = { x, y, z }
+                Children = { label, image, button }
             };
         }
     }

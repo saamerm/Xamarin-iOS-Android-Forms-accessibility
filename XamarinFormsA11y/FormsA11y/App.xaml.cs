@@ -13,10 +13,10 @@ namespace FormsA11y
             // https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/accessibility/automation-properties
             // as Intellisense doesnt recognise it, and we get a build error
             InitializeComponent();
-            //MainPage = new MainPageXAML();
+            MainPage = new MainPageXAML();
 
             // Used the AutomationProperties class 
-            MainPage = new MainPageCS();
+            //MainPage = new MainPageCS();
         }
 
         protected override void OnStart()
